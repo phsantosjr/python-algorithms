@@ -8,6 +8,7 @@ Some algorithms examples and exercises using Python
 
 - Sum
 - Bubble Sort
+- Palindrome
 
 
 
