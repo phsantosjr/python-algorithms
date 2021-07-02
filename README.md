@@ -12,6 +12,7 @@ Some algorithms examples and exercises using Python
 - Selection Sort
 - Palindrome [https://en.wikipedia.org/wiki/Palindrome]
 - Factorial [https://en.wikipedia.org/wiki/Factorial]
+- Tower of Hanoi [https://en.wikipedia.org/wiki/Tower_of_Hanoi]
 
 In python file you will find more than one version for the same algorithm. That's to show how can we improve performance for our codes.
 
@@ -24,7 +25,7 @@ In python file you will find more than one version for the same algorithm. That'
 |Quadratic | O(n^2) |
 |Cubic | O(n^3) |
 |Exponential | O(2^n) |
-|Logartithmic | O(log(n)) |
+|Logarithmic | O(log(n)) |
 |Log Linear | O(nlog(n)) |
 
 
@@ -40,7 +41,10 @@ The complexity of an algorithm is said be constant if the steps required to comp
 #### Linear Complexity ( O(n)) ####
 
 
-#### Quadratic Complexity ( O(n^2))
+#### Quadratic Complexity ( O(n^2)) ####
+
+
+#### Cubic Complexity ( O(n^2)) ####
 
 
 ### Sources ####
@@ -52,3 +56,5 @@ Python Basics and Algorithms Programming [https://www.amazon.com.br/gp/product/B
 Big O Notation and Algorithm Analysis with Python Examples[https://stackabuse.com/big-o-notation-and-algorithm-analysis-with-python-examples]
 
 [https://bigoquiz.com/]
+
+PythonPro BR [https://github.com/pythonprobr/estrutura-de-dados]
