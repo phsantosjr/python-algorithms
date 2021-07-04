@@ -1,6 +1,7 @@
-import timeit
+from utils import print_star_line, timer_decorator
 
 
+@timer_decorator
 def sum_numbers_loop(n: int) -> int:
     """
     BIG-O Notation = O(n)
@@ -69,53 +70,6 @@ def swap(m: int, n: int, arr: list):
     arr[m], arr[n] = arr[n], arr[m]
 
 
-def palindrome_1(word_1: str, word_2: str) -> bool:
-    umalista = list(word_2)
-
-    pos1 = 0
-    aindaOK = True
-
-    while pos1 < len(word_1) and aindaOK:
-        pos2 = 0
-        encontrado = False
-        while pos2 < len(umalista) and not encontrado:
-            if word_1[pos1] == umalista[pos2]:
-                encontrado = True
-            else:
-                pos2 = pos2 + 1
-
-        if encontrado:
-            umalista[pos2] = None
-        else:
-            aindaOK = False
-
-        pos1 = pos1 + 1
-
-    return aindaOK
-
-
-def palindrome_2(word_1: str) -> bool:
-    return word_1[::-1] == word_1
-
-
-def palindrome_3(word: str) -> bool:
-    reversed_string = ""
-    for i in reversed(range(len(word))):
-        reversed_string += word[i]
-    return word == reversed_string
-
-
-def palindrome_4(word: str, i=0) -> bool:
-    """
-    BIG-O Notation = O(n^2)
-    """
-    j = len(word) - 1 - i
-    if i > j:
-        return True
-    else:
-        return word[i] == word[j] and palindrome_4(word, i + 1)
-
-
 def even_or_odd(value: int) -> bool:
     """
     BIG-O Notation = O(1)
@@ -137,45 +91,6 @@ def fact2(n: int) -> int:
         return n * fact2(n-1)
 
 
-recursive_calls_count = 0
-
-
-def recursive_tower_of_hanoi(number_of_disks: int, origin: str, destiny: str, aux: str) -> None:
-    """
-    f(n) = 1 + 2 * f(n-1)
-    f(n) = 1 + 2 * (1 + 2 * f(n-2)) -> 1 + 2 + 4*f(n-2)
-    f(n) = 1 + 2 + 4 * ( 1 + 2 * f(n-3)) ->1 + 2 + 4 + 8* f(n-3)
-    f(n) = 1 + 2 + 4 ... 2**(n-1)     (I)
-    2 * f(n) = 2+ 4 + 8 ... 2 ** n    (II)
-    f(n) = 2**n - 1                    II - I
-    O(2**n) para tempo de execução
-    O(n) para memória
-    :param number_of_disks:
-    :param origin:
-    :param destiny:
-    :param aux:
-    :return:
-    """
-    global recursive_calls_count
-    recursive_calls_count += 1
-    if number_of_disks == 1:
-        print(f'{origin} -> {destiny} : {number_of_disks}')
-        return
-    recursive_tower_of_hanoi(number_of_disks - 1, origin, aux, destiny)
-    print(f'{origin} -> {destiny} : {number_of_disks}')
-    recursive_tower_of_hanoi(number_of_disks - 1, aux, destiny, origin)
-
-
-def tower_of_hanoi(number_of_disks: int):
-    global recursive_calls_count
-    recursive_calls_count = 0
-    recursive_tower_of_hanoi(number_of_disks, origin='A', destiny='B', aux='C')
-
-
-def print_star_line(size=20):
-    print(size * "*")
-
-
 if __name__ == "__main__":
     print_star_line()
 
@@ -184,7 +99,7 @@ if __name__ == "__main__":
     print_star_line()
 
     print("Testing sum_numbers_loop with 10")
-    print(sum_numbers_loop(10))
+    sum_numbers_loop(10)
     print_star_line()
 
     print("Testing bubble_sort with [8,5,2,9,5,6,3]")
@@ -197,22 +112,6 @@ if __name__ == "__main__":
 
     print("Testing selection_sort( with [8,5,2,9,5,6,3]")
     print(selection_sort([8, 5, 2, 9, 5, 6, 3]))
-    print_star_line()
-
-    print("Testing palindrome_1 with 'abcd', 'dcba'")
-    print(palindrome_1('abcd', 'dcba'))
-    print_star_line()
-
-    print("Testing palindrome_2 with 'radar'")
-    print(palindrome_2('radar'))
-    print_star_line()
-
-    print("Testing palindrome_3 with 'ana'")
-    print(palindrome_3('ana'))
-    print_star_line()
-
-    print("Testing palindrome_4 with 'dogmaiamgod'")
-    print(palindrome_4('dogmaiamgod'))
     print_star_line()
 
     print("Testing even_or_odd with 2")
@@ -231,7 +130,3 @@ if __name__ == "__main__":
     print(fact2(3))
     print_star_line()
 
-    for i in range(1, 4):
-        print(f'Testing Tower Of Hanoi for {i} disks')
-        tower_of_hanoi(i)
-    print_star_line()
