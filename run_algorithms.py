@@ -5,6 +5,7 @@ from two_number_sum import two_number_sum
 from find_min import find_min_1, find_min_2
 from find_max import find_max_1, find_max_2
 from smallest_difference import smallest_difference_1, smallest_difference_2
+from sum_numbers import sum_numbers, sum_numbers_loop, sum_numbers_in_list
 
 
 for i in range(1, 4):
@@ -63,4 +64,16 @@ print_star_line()
 
 print("Testing smallest_difference_2 with [-1, 5, 10, 20, 28, 3], [26, 134, 135, 15, 17]")
 print(smallest_difference_2([-1, 5, 10, 20, 28, 3], [26, 134, 135, 15, 17]))
+print_star_line()
+
+print("Testing sum_numbers with 10")
+print(sum_numbers(10))
+print_star_line()
+
+print("Testing sum_numbers_loop with 10")
+print(sum_numbers_loop(10))
+print_star_line()
+
+print("Testing sum_numbers_in_list with [-1, 5, 10, 20, 28, 3]")
+print(sum_numbers_in_list([-1, 5, 10, 20, 28, 3]))
 print_star_line()
