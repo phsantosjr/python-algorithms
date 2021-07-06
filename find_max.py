@@ -29,8 +29,8 @@ def find_max_2(array: list) -> list:
     :param array: list of integers
     :return: integer
     """
-    max_so_far = array[0]
+    biggest = array[0]
     for i in array:
-        if i > max_so_far:
-            max_so_far = i
-    return max_so_far
+        if i > biggest:
+            biggest = i
+    return biggest

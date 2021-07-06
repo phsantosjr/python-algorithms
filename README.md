@@ -25,6 +25,11 @@ sum(iterable)
 
 Is designed to calculate the sum of two numbers giver a target number from an array.
 
+##### Prefix Average #####
+
+Computing prefix averages is designed to given a sequence S consisting of n numbers, we want to compute a sequence A such that A[j] is the average of elements
+
+
 ##### Bubble Sort #####
 
 ##### Insertion Sort #####
@@ -54,6 +59,10 @@ Is designed to find the maximum value in a array
 
 Is designed to calculate the smallest difference from two arrays
 
+
+##### Three-Way Set Disjointness #####
+
+The three-way set disjointness problem is to determine if the intersection of the three sequences is empty, namely, that there is no element
 
 
 ### BIG-O Notation ####

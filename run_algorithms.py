@@ -1,12 +1,14 @@
 from utils import print_star_line
 from tower_of_hanoi import tower_of_hanoi
 from palindrome import *
-from two_number_sum import two_number_sum
+from factorial import fact_1, fact_2
 from find_min import find_min_1, find_min_2
 from find_max import find_max_1, find_max_2
+from prefix_average import prefix_average_1, prefix_average_2, prefix_average_3
 from smallest_difference import smallest_difference_1, smallest_difference_2
 from sum_numbers import sum_numbers, sum_numbers_loop, sum_numbers_in_list
-
+from three_way_set_disjointness import disjoint_1, disjoint_2
+from two_number_sum import two_number_sum
 
 for i in range(1, 4):
     print(f'Testing Tower Of Hanoi for {i} disks')
@@ -76,4 +78,33 @@ print_star_line()
 
 print("Testing sum_numbers_in_list with [-1, 5, 10, 20, 28, 3]")
 print(sum_numbers_in_list([-1, 5, 10, 20, 28, 3]))
+print_star_line()
+
+print("Testing fact_1 with 3")
+print(fact_1(3))
+print_star_line()
+
+print("Testing fact2 with 3")
+print(fact_2(3))
+print_star_line()
+
+print("Testing prefix_average_1 with [-1, 5, 10, 20, 28, 3]")
+print(prefix_average_1([-1, 5, 10, 20, 28, 3]))
+print_star_line()
+
+print("Testing prefix_average_2 with [-1, 5, 10, 20, 28, 3]")
+print(prefix_average_2([-1, 5, 10, 20, 28, 3]))
+print_star_line()
+
+print("Testing prefix_average_3 with [-1, 5, 10, 20, 28, 3]")
+print(prefix_average_3([-1, 5, 10, 20, 28, 3]))
+print_star_line()
+
+
+print("Testing disjoint_1 with [1, 2, 3, 4], [3, 4, 5, 6], [4, 5, 6]")
+print(disjoint_1([1, 2, 3, 4], [3, 4, 5, 6], [4, 5, 6]))
+print_star_line()
+
+print("Testing disjoint_2 with [1, 2, 3, 4], [3, 4, 5, 6], [4, 5, 6]")
+print(disjoint_2([1, 2, 3, 4], [3, 4, 5, 6], [4, 5, 6]))
 print_star_line()

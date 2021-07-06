@@ -59,20 +59,6 @@ def even_or_odd(value: int) -> bool:
     return value % 2 == 0
 
 
-def fact(n: int) -> int:
-    product = 1
-    for i in range(n):
-        product = product * (i+1)
-    return product
-
-
-def fact2(n: int) -> int:
-    if n == 0:
-        return 1
-    else:
-        return n * fact2(n-1)
-
-
 if __name__ == "__main__":
     print_star_line()
 
@@ -96,11 +82,4 @@ if __name__ == "__main__":
     print(even_or_odd(3))
     print_star_line()
 
-    print("Testing fact with 3")
-    print(fact(3))
-    print_star_line()
-
-    print("Testing fact2 with 3")
-    print(fact2(3))
-    print_star_line()
 
