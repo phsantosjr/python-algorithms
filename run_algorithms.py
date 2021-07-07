@@ -9,6 +9,7 @@ from smallest_difference import smallest_difference_1, smallest_difference_2
 from sum_numbers import sum_numbers, sum_numbers_loop, sum_numbers_in_list
 from three_way_set_disjointness import disjoint_1, disjoint_2
 from two_number_sum import two_number_sum
+from sum_product import sum_product
 
 for i in range(1, 4):
     print(f'Testing Tower Of Hanoi for {i} disks')
@@ -107,4 +108,8 @@ print_star_line()
 
 print("Testing disjoint_2 with [1, 2, 3, 4], [3, 4, 5, 6], [4, 5, 6]")
 print(disjoint_2([1, 2, 3, 4], [3, 4, 5, 6], [4, 5, 6]))
+print_star_line()
+
+print("Testing sum_product with [1, 2, 3, 4]")
+print(sum_product([1, 2, 3, 4]))
 print_star_line()

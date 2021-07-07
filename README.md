@@ -25,6 +25,11 @@ sum(iterable)
 
 Is designed to calculate the sum of two numbers giver a target number from an array.
 
+
+##### Sum and Product #####
+
+Is designed to sum a array (list) of integers, and to return a product of a array of integers
+
 ##### Prefix Average #####
 
 Computing prefix averages is designed to given a sequence S consisting of n numbers, we want to compute a sequence A such that A[j] is the average of elements
