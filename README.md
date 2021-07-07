@@ -15,7 +15,7 @@ Is designed to sum numbers in :
 - array
 - sequence of number for o to number (n)
 
-Python bult-in function to sum numbers in a iterable:
+Python built-in function to sum numbers in a iterable:
 [Doc](https://docs.python.org/3/library/functions.html#sum)
 ```
 sum(iterable)
@@ -31,6 +31,12 @@ Computing prefix averages is designed to given a sequence S consisting of n numb
 
 
 ##### Bubble Sort #####
+
+Python built-in function to return a iterable sorted:
+[Doc](https://docs.python.org/3/library/functions.html#sorted)
+```
+sorted(iterable)
+```
 
 ##### Insertion Sort #####
 
@@ -52,8 +58,25 @@ Source: [https://en.wikipedia.org/wiki/Tower_of_Hanoi]
 ##### Find Min #####
 Is designed to find the minimum value in a array
 
+Python built-in function to get a min value in a iterable:
+[Doc](https://docs.python.org/3/library/functions.html#min)
+```
+min(iterable)
+or 
+min(a, b, c, ...)
+```
+
 ##### Find Max #####
 Is designed to find the maximum value in a array
+
+Python built-in function to get a max value in a iterable:
+[Doc](https://docs.python.org/3/library/functions.html#max)
+```
+max(iterable)
+or 
+max(a, b, c, ...)
+```
+
 
 ##### Smallest Difference #####
 
@@ -65,12 +88,26 @@ Is designed to calculate the smallest difference from two arrays
 The three-way set disjointness problem is to determine if the intersection of the three sequences is empty, namely, that there is no element
 
 
+### Big Omega Notation ###
+
+Omega notation describes a lower bound on the time.
+Ω (n)
+
+### Big Theta Notation ###
+
+Omega notation means both O and Ω notation.
+Θ(n)
+
 ### BIG-O Notation ####
 
 >The big-Oh notation is used widely to characterize running times and space bounds
 in terms of some parameter n, which varies from problem to problem, but is always
 defined as a chosen measure of the “size” of the problem
 >(Goodrich, Michael T., Data Structures and Algorithms in Python )
+
+>Big O time is the language and metric we use to describe the efficiency of algorithms. Not understanting it thoroughly can really hurt you in developing an algorithm. Not only might you be judged harshly for not really understanding big O, but you will also struggle to judge when your algorithm is getting faster or slower.
+> (MacDowell, Gayle L - Cracking the Coding Interview: 189 Programming Questions and Solutions)
+
 
 |Name | BIG O |
 |---|---|
@@ -164,9 +201,19 @@ Source:
 
 ### Sources ####
 
+##### Videos #####
+
 Introdução a notação Big-O para análise de algoritmos [https://www.youtube.com/watch?v=qEAZzi15Uck]
 
+##### Books #####
+
 Python Basics and Algorithms Programming [https://www.amazon.com.br/gp/product/B09757C778/ref=ku_mi_rw_edp_ku]
+
+Cracking the Coding Interview: 189 Programming Questions and Solutions [https://www.amazon.com/Cracking-Coding-Interview-Gayle-McDowell/dp/0984782850/]
+
+Data Structures and Algorithms in Python [https://www.amazon.com.br/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/]
+
+##### Tutorials and WebSites #####
 
 Big O Notation and Algorithm Analysis with Python Examples[https://stackabuse.com/big-o-notation-and-algorithm-analysis-with-python-examples]
 
@@ -178,4 +225,3 @@ Problem Solving with Algorithms and Data Structures using Python [https://runest
 
 TheAlgorithms/Python [https://github.com/TheAlgorithms/Python]
 
-Data Structures and Algorithms in Python [https://www.amazon.com.br/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/]
