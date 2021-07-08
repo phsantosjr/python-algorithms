@@ -4,12 +4,14 @@ from palindrome import *
 from factorial import fact_1, fact_2
 from find_min import find_min_1, find_min_2
 from find_max import find_max_1, find_max_2
+from power_of_two import power_of_two
 from prefix_average import prefix_average_1, prefix_average_2, prefix_average_3
 from smallest_difference import smallest_difference_1, smallest_difference_2
 from sum_numbers import sum_numbers, sum_numbers_loop, sum_numbers_in_list
+from sum_product import sum_product
 from three_way_set_disjointness import disjoint_1, disjoint_2
 from two_number_sum import two_number_sum
-from sum_product import sum_product
+
 
 for i in range(1, 4):
     print(f'Testing Tower Of Hanoi for {i} disks')
@@ -112,4 +114,9 @@ print_star_line()
 
 print("Testing sum_product with [1, 2, 3, 4]")
 print(sum_product([1, 2, 3, 4]))
+print_star_line()
+
+
+print("Testing power_of_two with 4")
+print(power_of_two(4))
 print_star_line()

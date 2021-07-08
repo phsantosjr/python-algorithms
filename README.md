@@ -147,15 +147,31 @@ Source: (Goodrich, Michael T., Data Structures and Algorithms in Python )
 
 The complexity of an algorithm is said be constant if the steps required to complete the execution of an algorithm remain constant.
 
+In other words, it does not matter what the value of n is; f (n) will always be equal to the constant value c
+
 ```sum_numbers()```
 
+
+#### Logarithm Complexity ( O(log n)) ####
+
+
 #### Linear Complexity ( O(n)) ####
+
+This function arises in algorithm analysis any time we have to do a single basic operation for each of n elements.
+
+>The linear function also represents the best running time we can hope to achieve for any algorithm that processes each of n objects that are not already in the computer’s memory
+>(Goodrich, Michael T., Data Structures and Algorithms in Python )
 
 
 #### Quadratic Complexity ( O(n^2)) ####
 
+That is, given an input value n, the function f assigns the product of n with itself (in other words, “n squared”).
 
-#### Cubic Complexity ( O(n^2)) ####
+#### Cubic Complexity ( O(n^3)) ####
+
+That is, given an input value n, the function f assigns the product of n with three times (in other words, “n cubic”).
+
+#### Exponential Complexity ( O(c^n)) ####
 
 
 ### Sorting Algorithims Cheat Sheet ###
@@ -164,6 +180,7 @@ The complexity of an algorithm is said be constant if the steps required to comp
 
 
 ### Data Structure Operations Cheat Sheet ###
+
 ![](https://jojozhuang.github.io/assets/images/uncategorized/9721/data_structure_operations.png)
 
 
