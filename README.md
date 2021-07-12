@@ -162,6 +162,8 @@ This function arises in algorithm analysis any time we have to do a single basic
 >The linear function also represents the best running time we can hope to achieve for any algorithm that processes each of n objects that are not already in the computer’s memory
 >(Goodrich, Michael T., Data Structures and Algorithms in Python )
 
+#### Linearithmic Complexity ( O(n log n)) ####
+
 
 #### Quadratic Complexity ( O(n^2)) ####
 
@@ -247,3 +249,4 @@ Problem Solving with Algorithms and Data Structures using Python [https://runest
 
 TheAlgorithms/Python [https://github.com/TheAlgorithms/Python]
 
+Time Complexity[https://en.wikipedia.org/wiki/Time_complexity]

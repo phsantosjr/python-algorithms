@@ -2,6 +2,7 @@ from utils import print_star_line
 from tower_of_hanoi import tower_of_hanoi
 from palindrome import *
 from factorial import fact_1, fact_2
+from fibonacci import fibonacci_1, fibonacci_2
 from find_min import find_min_1, find_min_2
 from find_max import find_max_1, find_max_2
 from power_of_two import power_of_two
@@ -116,7 +117,14 @@ print("Testing sum_product with [1, 2, 3, 4]")
 print(sum_product([1, 2, 3, 4]))
 print_star_line()
 
-
 print("Testing power_of_two with 4")
 print(power_of_two(4))
+print_star_line()
+
+print("Testing fibonacci_1 with 10")
+print(fibonacci_1(10))
+print_star_line()
+
+print("Testing fibonacci_2 with 1, 10")
+print(fibonacci_2(1, 10))
 print_star_line()
