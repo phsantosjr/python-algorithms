@@ -250,3 +250,5 @@ Problem Solving with Algorithms and Data Structures using Python [https://runest
 TheAlgorithms/Python [https://github.com/TheAlgorithms/Python]
 
 Time Complexity[https://en.wikipedia.org/wiki/Time_complexity]
+
+GeekForces - Count all distinct pairs with difference equal to k [https://www.geeksforgeeks.org/count-pairs-difference-equal-k/]

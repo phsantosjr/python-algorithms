@@ -1,3 +1,4 @@
+from count_pairs_difference_equal_k import method_1, method_2
 from utils import print_star_line
 from tower_of_hanoi import tower_of_hanoi
 from palindrome import *
@@ -127,4 +128,12 @@ print_star_line()
 
 print("Testing fibonacci_2 with 1, 10")
 print(fibonacci_2(1, 10))
+print_star_line()
+
+print("Testing count_pairs_difference_equal_k method_1 with [1, 5, 7, 10, 11, 13]")
+print(method_1([1, 5, 7, 10, 11, 13], 2))
+print_star_line()
+
+print("Testing count_pairs_difference_equal_k method_2 with [1, 5, 7, 10, 11, 13]")
+print(method_2([1, 5, 7, 10, 11, 13, 15], 2))
 print_star_line()
