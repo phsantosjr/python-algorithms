@@ -1,4 +1,4 @@
-# Python Algorithms - Exercises #
+# Python Algorithms and Data Structures - Exercises #
 ![](https://img.shields.io/badge/Python-3.8-blue.svg)
 
 The goal of this repository is to study BIG-O Notation, algorithm complexity, data structures, using some algorithms examples and exercises in Python.
@@ -6,6 +6,23 @@ The goal of this repository is to study BIG-O Notation, algorithm complexity, da
 We use a lot of sources for this project, have a look in these sources in last section of this README.
 
 In python file you will find more than one version for the same algorithm. That's to show how can we improve performance for our codes.
+
+### Data Structures ###
+
+##### Array/List #####
+
+##### Stack #####
+>A stack is a collection of objects that are inserted and removed according to the
+last-in, first-out (LIFO) principle. A user may insert objects into a stack at any
+time, but may only access or remove the most recently inserted object that remains
+(at the so-called “top” of the stack).
+>(Goodrich, Michael T., Data Structures and Algorithms in Python )
+
+##### Queue #####
+
+##### Linked List #####
+
+##### Tree #####
 
 ### List of Algorithms ####
 
@@ -91,6 +108,10 @@ Is designed to calculate the smallest difference from two arrays
 ##### Three-Way Set Disjointness #####
 
 The three-way set disjointness problem is to determine if the intersection of the three sequences is empty, namely, that there is no element
+
+##### Caesar Cipher #####
+
+In cryptography, a Caesar cipher, also known as Caesar's cipher, the shift cipher, Caesar's code or Caesar shift, is one of the simplest and most widely known encryption techniques.
 
 
 ### Big Omega Notation ###
@@ -227,28 +248,28 @@ Source:
 
 ##### Videos #####
 
-Introdução a notação Big-O para análise de algoritmos [https://www.youtube.com/watch?v=qEAZzi15Uck]
+[Introdução a notação Big-O para análise de algoritmos](https://www.youtube.com/watch?v=qEAZzi15Uck)
 
 ##### Books #####
 
-Python Basics and Algorithms Programming [https://www.amazon.com.br/gp/product/B09757C778/ref=ku_mi_rw_edp_ku]
+[ython Basics and Algorithms Programming](https://www.amazon.com.br/gp/product/B09757C778/ref=ku_mi_rw_edp_ku)
 
-Cracking the Coding Interview: 189 Programming Questions and Solutions [https://www.amazon.com/Cracking-Coding-Interview-Gayle-McDowell/dp/0984782850/]
+[Cracking the Coding Interview: 189 Programming Questions and Solutions](https://www.amazon.com/Cracking-Coding-Interview-Gayle-McDowell/dp/0984782850/)
 
-Data Structures and Algorithms in Python [https://www.amazon.com.br/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/]
+[Data Structures and Algorithms in Python](https://www.amazon.com.br/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
 
 ##### Tutorials and WebSites #####
 
-Big O Notation and Algorithm Analysis with Python Examples[https://stackabuse.com/big-o-notation-and-algorithm-analysis-with-python-examples]
+[Big O Notation and Algorithm Analysis with Python Examples](https://stackabuse.com/big-o-notation-and-algorithm-analysis-with-python-examples)
 
-Big-O Quizz[https://bigoquiz.com/]
+[Big-O Quizz](https://bigoquiz.com/)
 
-PythonPro BR [https://github.com/pythonprobr/estrutura-de-dados]
+[PythonPro BR](https://github.com/pythonprobr/estrutura-de-dados)
 
-Problem Solving with Algorithms and Data Structures using Python [https://runestone.academy/runestone/books/published/pythonds/index.html]
+[Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/runestone/books/published/pythonds/index.html)
 
-TheAlgorithms/Python [https://github.com/TheAlgorithms/Python]
+[TheAlgorithms/Python](https://github.com/TheAlgorithms/Python)
 
-Time Complexity[https://en.wikipedia.org/wiki/Time_complexity]
+[Time Complexity](https://en.wikipedia.org/wiki/Time_complexity)
 
-GeekForces - Count all distinct pairs with difference equal to k [https://www.geeksforgeeks.org/count-pairs-difference-equal-k/]
+[GeekForces - Count all distinct pairs with difference equal to k](https://www.geeksforgeeks.org/count-pairs-difference-equal-k/])

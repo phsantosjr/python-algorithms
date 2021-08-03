@@ -13,6 +13,7 @@ from sum_numbers import sum_numbers, sum_numbers_loop, sum_numbers_in_list
 from sum_product import sum_product
 from three_way_set_disjointness import disjoint_1, disjoint_2
 from two_number_sum import two_number_sum
+from caesar_cipher import CaesarCipher
 
 
 for i in range(1, 4):
@@ -136,4 +137,12 @@ print_star_line()
 
 print("Testing count_pairs_difference_equal_k method_2 with [1, 5, 7, 10, 11, 13]")
 print(method_2([1, 5, 7, 10, 11, 13, 15], 2))
+print_star_line()
+
+print("Testing caesar_cipher with THE EAGLE IS IN PLAY; MEET AT JOE S.")
+cipher = CaesarCipher(3)
+encrypted = cipher.encrypt("THE EAGLE IS IN PLAY; MEET AT JOE S.")
+print(encrypted)
+decrypted = cipher.decrypt(encrypted)
+print(decrypted)
 print_star_line()
