@@ -250,17 +250,19 @@ Source:
 
 [Introdução a notação Big-O para análise de algoritmos](https://www.youtube.com/watch?v=qEAZzi15Uck)
 
-##### Books #####
+##### Books
 
-[ython Basics and Algorithms Programming](https://www.amazon.com.br/gp/product/B09757C778/ref=ku_mi_rw_edp_ku)
+[Python Basics and Algorithms Programming](https://www.amazon.com.br/gp/product/B09757C778/ref=ku_mi_rw_edp_ku)
 
 [Cracking the Coding Interview: 189 Programming Questions and Solutions](https://www.amazon.com/Cracking-Coding-Interview-Gayle-McDowell/dp/0984782850/)
 
 [Data Structures and Algorithms in Python](https://www.amazon.com.br/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
 
-##### Tutorials and WebSites #####
+##### Tutorials and WebSites
 
 [Big O Notation and Algorithm Analysis with Python Examples](https://stackabuse.com/big-o-notation-and-algorithm-analysis-with-python-examples)
+
+[Big O Notation](https://www.mylifeindev.com/2022/05/big-o-references-httpswww.html?fbclid=IwAR1cuqNT6NQyvgE99xx_gFvnqxlZ0MsvmYr7TZK-CqGBOEB2VkNphRwpS8w)
 
 [Big-O Quizz](https://bigoquiz.com/)
 
@@ -273,3 +275,8 @@ Source:
 [Time Complexity](https://en.wikipedia.org/wiki/Time_complexity)
 
 [GeekForces - Count all distinct pairs with difference equal to k](https://www.geeksforgeeks.org/count-pairs-difference-equal-k/])
+
+
+##### Cursos 
+
+[Data Structures & Algorithms - Python in Udemy](https://www.udemy.com/course/data-structures-algorithms-python/)

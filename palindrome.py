@@ -40,6 +40,18 @@ def palindrome_1(word_1: str, word_2: str) -> bool:
 
 @timer_decorator
 def palindrome_2(word_1: str) -> bool:
+    """
+    Simplest way to check if a word ins a palindrome
+    """
+    return word_1[::-1] == word_1
+
+
+@timer_decorator
+def palindrome_2_case_sensitive(word_1: str) -> bool:
+    """
+    Simplest way to check if a word ins a palindrome, even if word_1 is upper ou lowe
+    """
+    word_1 = word_1.casefold()
     return word_1[::-1] == word_1
 
 

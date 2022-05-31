@@ -30,6 +30,12 @@ print("Testing palindrome_2 with 'radar'")
 print(palindrome_2('radar'))
 print_star_line()
 
+
+print("Testing palindrome_2_case_sensitive with 'RadaR'")
+print(palindrome_2_case_sensitive('RadaR'))
+print_star_line()
+
+
 print("Testing palindrome_3 with 'ana'")
 print(palindrome_3('ana'))
 print_star_line()
