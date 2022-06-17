@@ -264,7 +264,7 @@ Source:
 
 [Big O Notation](https://www.mylifeindev.com/2022/05/big-o-references-httpswww.html?fbclid=IwAR1cuqNT6NQyvgE99xx_gFvnqxlZ0MsvmYr7TZK-CqGBOEB2VkNphRwpS8w)
 
-[Big-O Quizz](https://bigoquiz.com/)
+[Big-O Quiz](https://bigoquiz.com/)
 
 [PythonPro BR](https://github.com/pythonprobr/estrutura-de-dados)
 
@@ -277,6 +277,14 @@ Source:
 [GeekForces - Count all distinct pairs with difference equal to k](https://www.geeksforgeeks.org/count-pairs-difference-equal-k/])
 
 
-##### Cursos 
+##### Courses 
 
 [Data Structures & Algorithms - Python in Udemy](https://www.udemy.com/course/data-structures-algorithms-python/)
+
+
+##### Platforms to practice
+
+[Code Signal](https://codesignal.com/)
+
+[LeetCode](https://leetcode.com/)
+

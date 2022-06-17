@@ -15,8 +15,12 @@ def decode(roman: str) -> int:
     return val
 
 
-if __name__ == "__main__":
+def main():
     print("Convert I to 1 : ", decode("I"))
     print("Convert II to 2 : ", decode("II"))
     print("Convert V to 5 : ", decode("V"))
+
+
+if __name__ == "__main__":
+    main()
 

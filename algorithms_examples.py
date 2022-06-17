@@ -1,10 +1,8 @@
-from utils import print_star_line, timer_decorator
+from utils import print_star_line
 
 
 def bubble_sort(array: list) -> list:
-    """
-    BIG-O Notation = O(n^2)
-    """
+    """ BIG-O Notation = O(n^2) """
 
     is_sorted = False
     counter = 0
@@ -19,9 +17,7 @@ def bubble_sort(array: list) -> list:
 
 
 def insertion_sort(array: list) -> list:
-    """
-    BIG-O Notation = O(n^2)
-    """
+    """ BIG-O Notation = O(n^2) """
 
     for i in range(1, len(array)):
         j = i
@@ -32,9 +28,7 @@ def insertion_sort(array: list) -> list:
 
 
 def selection_sort(array: list) -> list:
-    """
-    BIG-O Notation = O(n^2)
-    """
+    """ BIG-O Notation = O(n^2) """
     i = 0
     while i < len(array):
         min_element = i
@@ -55,6 +49,10 @@ def swap(m: int, n: int, arr: list):
 def even_or_odd(value: int) -> bool:
     """
     BIG-O Notation = O(1)
+
+    Returns:
+            If even returns True
+            If odd returns False
     """
     return value % 2 == 0
 
