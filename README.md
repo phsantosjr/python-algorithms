@@ -266,6 +266,8 @@ Source:
 
 [Big-O Quiz](https://bigoquiz.com/)
 
+[GeeksForGeeks](https://www.geeksforgeeks.org/data-structures/)
+
 [PythonPro BR](https://github.com/pythonprobr/estrutura-de-dados)
 
 [Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/runestone/books/published/pythonds/index.html)
