@@ -1,0 +1,12 @@
+from utils import swap
+
+
+def insertion_sort(array: list) -> list:
+    """ BIG-O Notation = O(n^2) """
+
+    for i in range(1, len(array)):
+        j = i
+        while j > 0 and array[j] < array[j-1]:
+            swap(j, j-1, array)
+            j -= 1
+    return array

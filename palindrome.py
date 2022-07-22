@@ -117,12 +117,12 @@ def palindrome_6(word_1: str, word_2: str) -> bool:
         c2[pos] = c2[pos] + 1
 
     j = 0
-    stillOK = True
+    still_ok = True
 
-    while j < 26 and stillOK:
+    while j < 26 and still_ok:
         if c1[j] == c2[j]:
             j = j + 1
         else:
-            stillOK = False
+            still_ok = False
 
-    return stillOK
+    return still_ok

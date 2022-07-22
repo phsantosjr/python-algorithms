@@ -5,8 +5,6 @@ Time complexity = O(n)
 
 """
 
-from utils import timer_decorator
-
 
 def two_number_sum(array: list, target_sum: int) -> list:
     for n in array:

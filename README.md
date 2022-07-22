@@ -1,87 +1,86 @@
-# Python Algorithms and Data Structures - Exercises #
+# Python Algorithms, Data Structures, and Exercises
 ![](https://img.shields.io/badge/Python-3.8-blue.svg)
 
-The goal of this repository is to study BIG-O Notation, algorithm complexity, data structures, using some algorithms examples and exercises in Python.
+The main goal of this repository is to study BIG-O Notation, algorithm complexity, data structures, using some algorithms examples and exercises in Python.
 
-We use a lot of sources for this project, have a look in these sources in last section of this README.
+Was used some sources for this project, have a look in these sources in last section of this README.
 
 In python file you will find more than one version for the same algorithm. That's to show how can we improve performance for our codes.
 
-### Data Structures ###
+### Data Structures
 
-##### Array/List #####
+##### List/Array
+>Lists are used to store multiple items in a single variable.
+> (W3Schools - https://www.w3schools.com/python/python_lists.asp)
 
-##### Stack #####
+![](contrib/list_in_python.jpg)
+ 
+Official Python Doc: (https://docs.python.org/3/tutorial/datastructures.html)
+
+Video about Lists: https://www.youtube.com/watch?v=NqacT1CjkmQ&ab_channel=CodingEntrepreneurs
+
+##### Stack
 >A stack is a collection of objects that are inserted and removed according to the
 last-in, first-out (LIFO) principle. A user may insert objects into a stack at any
 time, but may only access or remove the most recently inserted object that remains
 (at the so-called “top” of the stack).
 >(Goodrich, Michael T., Data Structures and Algorithms in Python )
 
-##### Queue #####
+##### Queue
 
-##### Linked List #####
+##### Linked List
 
-##### Tree #####
+##### Tree
 
-### List of Algorithms ####
+### List of Algorithms
 
-##### Sum #####
+### Sum
 
 Is designed to sum numbers in :
 - array
 - sequence of number for o to number (n)
 
 Python built-in function to sum numbers in a iterable:
-[Doc](https://docs.python.org/3/library/functions.html#sum)
+[Official Python Doc](https://docs.python.org/3/library/functions.html#sum)
 ```
 sum(iterable)
 ```
 
-##### Two Number Sum #####
+##### Two Number Sum
 
 Is designed to calculate the sum of two numbers giver a target number from an array.
 
+##### Sum and Product
 
-##### Sum and Product #####
+Is designed to sum an array (list) of integers, and to return a product of an array of integers
 
-Is designed to sum a array (list) of integers, and to return a product of a array of integers
-
-##### Prefix Average #####
+##### Prefix Average
 
 Computing prefix averages is designed to given a sequence S consisting of n numbers, we want to compute a sequence A such that A[j] is the average of elements
 
+### Sort
 
-##### Bubble Sort #####
-
-Python built-in function to return a iterable sorted:
-[Doc](https://docs.python.org/3/library/functions.html#sorted)
+Python built-in function to return an iterable sorted:
+[Offical Python Doc](https://docs.python.org/3/library/functions.html#sorted)
 ```
 sorted(iterable)
 ```
 
-##### Insertion Sort #####
+##### Bubble Sort
 
-##### Selection Sort #####
+##### Insertion Sort
 
-##### Palindrome ##### 
-Source: [https://en.wikipedia.org/wiki/Palindrome]
+##### Selection Sort
 
-
-
-##### Factorial ##### 
-Source: [https://en.wikipedia.org/wiki/Factorial]
-
-##### Tower of Hanoi #####
-Source: [https://en.wikipedia.org/wiki/Tower_of_Hanoi]
-
+##### Palindrome
+Source: [WikiPedia](https://en.wikipedia.org/wiki/Palindrome)
 
 
 ##### Find Min #####
-Is designed to find the minimum value in a array
+Is designed to find the minimum value in an array
 
-Python built-in function to get a min value in a iterable:
-[Doc](https://docs.python.org/3/library/functions.html#min)
+Python built-in function to get a min value in an iterable:
+[Official Python Doc](https://docs.python.org/3/library/functions.html#min)
 ```
 min(iterable)
 or 
@@ -114,7 +113,9 @@ The three-way set disjointness problem is to determine if the intersection of th
 In cryptography, a Caesar cipher, also known as Caesar's cipher, the shift cipher, Caesar's code or Caesar shift, is one of the simplest and most widely known encryption techniques.
 
 
-### Big Omega Notation ###
+## BIG-O Notation
+
+### Big Omega Notation
 
 Omega notation describes a lower bound on the time.
 Ω (n)
@@ -164,7 +165,7 @@ We illustrate the growth rates of the seven functions
 Source: (Goodrich, Michael T., Data Structures and Algorithms in Python )
 
 
-#### Constant Complexity ( O(c)) ####
+#### Constant Complexity ( O(c))
 
 The complexity of an algorithm is said be constant if the steps required to complete the execution of an algorithm remain constant.
 
@@ -173,7 +174,7 @@ In other words, it does not matter what the value of n is; f (n) will always be 
 ```sum_numbers()```
 
 
-#### Logarithm Complexity ( O(log n)) ####
+#### Logarithm Complexity ( O(log n))
 
 
 #### Linear Complexity ( O(n)) ####
@@ -223,7 +224,12 @@ tional forms of function calls
 
 
 Examples of recursion:
-- Factorial
+
+##### Factorial
+Source: [WikiPedia](https://en.wikipedia.org/wiki/Factorial)
+
+##### Tower of Hanoi #####
+Source: [https://en.wikipedia.org/wiki/Tower_of_Hanoi]
 
 ```
 def factorial_recursive(n):
@@ -236,17 +242,16 @@ def factorial_recursive(n):
         return n * factorial_recursive(n-1)
 ```
 - Fibonacci
-- Tower of Hanoi
 - Merge Sort, quick sort
 - Binary search
 - Divide and conquer algorithms
 
 Source:
-[https://realpython.com/python-thinking-recursively/]
+[Real Python - Thinking Recursively](https://realpython.com/python-thinking-recursively/)
 
-### Sources ####
+### Sources
 
-##### Videos #####
+##### Videos
 
 [Introdução a notação Big-O para análise de algoritmos](https://www.youtube.com/watch?v=qEAZzi15Uck)
 

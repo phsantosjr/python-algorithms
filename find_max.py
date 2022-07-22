@@ -1,6 +1,3 @@
-from utils import timer_decorator
-
-
 def find_max_1(array: list) -> int:
     """
 

@@ -52,7 +52,7 @@ def smallest_difference_2(array_one: list, array_two: list) -> list:
 
     for i in range(len(array_one)):
         for j in range(len(array_two)):
-            if (abs(array_one[i] - array_two[j]) < smallest_diff):
+            if abs(array_one[i] - array_two[j]) < smallest_diff:
                 diff = abs(array_one[i] - array_two[j])
                 m, n = i, j
     return [array_one[m], array_two[n]]

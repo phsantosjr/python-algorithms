@@ -17,5 +17,9 @@ def timer_decorator(func):
     return timer_wrapper
 
 
-def print_star_line(size=20):
+def print_star_line(size: int = 20) -> None:
     print(size * "*")
+
+
+def swap(m: int, n: int, arr: list):
+    arr[m], arr[n] = arr[n], arr[m]

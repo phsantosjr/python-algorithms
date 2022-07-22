@@ -12,7 +12,7 @@ SOURCE: CodeSignal
 """
 
 
-def matrix_elements_sum(matrix):
+def matrix_elements_sum(matrix: list):
     total = 0
     for j in range(len(matrix[0])):
         for i in range(len(matrix)):
