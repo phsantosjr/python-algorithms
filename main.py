@@ -1,5 +1,5 @@
 from recursion.factorial import fact_1, fact_2
-from recursion.fibonacci import fibonacci_1, fibonacci_2
+from recursion.fibonacci import fibonacci_1, fibonacci_2, fibonacci_generator
 from recursion.tower_of_hanoi import tower_of_hanoi
 from sort.bubble_sort import bubble_sort
 from sort.insertion_sort import insertion_sort
@@ -64,6 +64,10 @@ def main():
 
     print("Testing fibonacci_2 with 1, 10")
     print(fibonacci_2(1, 10))
+    print_star_line()
+
+    print("Testing fibonacci_generator, 10")
+    print(fibonacci_generator(10))
     print_star_line()
 
     """

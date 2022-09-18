@@ -10,15 +10,15 @@ def find_min_1(array: list) -> int:
     :param array: list of integers
     :return: integer
     """
-    overallmin = array[0]
+    overall_min = array[0]
     for i in array:
         is_smallest = True
         for j in array:
             if i > j:
                 is_smallest = False
         if is_smallest:
-            overallmin = i
-    return overallmin
+            overall_min = i
+    return overall_min
 
 
 @timer_decorator

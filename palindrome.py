@@ -40,9 +40,7 @@ def palindrome_1(word_1: str, word_2: str) -> bool:
 
 @timer_decorator
 def palindrome_2(word_1: str) -> bool:
-    """
-    Simplest way to check if a word ins a palindrome
-    """
+    """ Simplest way to check if a word ins a palindrome """
     return word_1[::-1] == word_1
 
 
@@ -126,3 +124,22 @@ def palindrome_6(word_1: str, word_2: str) -> bool:
             still_ok = False
 
     return still_ok
+
+
+def palindrome_7(word_1: str) -> bool:
+    i = 0
+    j = len(word_1) - 1
+
+    while i < j:
+        while not word_1[i].isalnum() and i < j:
+            i += 1
+        while not word_1[j].isalnum() and i < j:
+            j -= 1
+
+        if word_1[i].lower != word_1[j].lower():
+            return False
+
+        i += 1
+        j -= 1
+
+    return True
